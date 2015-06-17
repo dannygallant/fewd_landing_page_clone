@@ -425,3 +425,14 @@ td,
 th {
   padding: 0;
 }
+
+/*Temporary styling to identfy sections. Will be deleted once layout is correct. */
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/*Temporary styling to identfy sections. Will be deleted once layout is correct. */
