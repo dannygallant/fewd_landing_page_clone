@@ -426,7 +426,15 @@ th {
   padding: 0;
 }
 
-/*Temporary styling to identfy sections. Will be deleted once layout is correct. */
+.top-navigation {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+}
+
+
+/* ======== Temporary styling to identfy sections. Will be deleted once layout is correct. ========= */
 
 body {
   background-color: LightGray;
@@ -435,7 +443,18 @@ div {
   border: 1px solid Chocolate;
 } 
 
-/*Temporary styling to identfy sections. Will be deleted once layout is correct. */
+/* ======== Temporary styling to identfy sections. Will be deleted once layout is correct. ========= */
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /******** Navigation Section *********/
 
@@ -451,18 +470,18 @@ div {
   width: 970px;
   height: 70px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .top-navigation .logo {
   height: 4.375rem;
-  margin-left: 10rem;
 }
 
 .top-navigation .links {
   float: right;
   color: #838994;
   font-size: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .top-navigation .links li {
