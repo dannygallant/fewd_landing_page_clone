@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 ! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -445,18 +453,14 @@ div {
 
 /* ======== Temporary styling to identfy sections. Will be deleted once layout is correct. ========= */
 
-html {
-  -webkit-font-smoothing: antialiased;
-}
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 /******** Navigation Section *********/
+
+/* Transition doesn't seem to be working. Nothing changes with higher time values. */
+.top-navigation > .links {
+  transition: all 0.5s ease;
+}
 
 .top-navigation {
   background-color: #fff;
@@ -466,7 +470,7 @@ html {
   z-index: 9999;
 }
 
-.top-navigation > .content {
+.content {
   width: 970px;
   height: 70px;
   margin: 0 auto;
@@ -479,9 +483,11 @@ html {
 
 .top-navigation .links {
   float: right;
+  font-family: 'Roboto', sans-serif;
   color: #838994;
   font-size: 1rem;
   margin-top: 1.5rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li {
@@ -489,7 +495,7 @@ html {
   margin-left: 1.5rem;
 }
 
-.top-navigation .links li.active {
+.top-navigation .links .active {
   color: #4c5058;
   font-weight: 500;
 }
