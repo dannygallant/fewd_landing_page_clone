@@ -428,12 +428,12 @@ th {
 
 /*Temporary styling to identfy sections. Will be deleted once layout is correct. */
 
-/* body {
+body {
   background-color: LightGray;
 }
 div {
   border: 1px solid Chocolate;
-} */
+} 
 
 /*Temporary styling to identfy sections. Will be deleted once layout is correct. */
 
@@ -454,8 +454,8 @@ div {
 }
 
 .top-navigation .logo {
-  /* height: 4.375rem; */
-  margin-left: 4rem;
+  height: 4.375rem;
+  margin-left: 10rem;
 }
 
 .top-navigation .links {
