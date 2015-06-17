@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -428,11 +428,56 @@ th {
 
 /*Temporary styling to identfy sections. Will be deleted once layout is correct. */
 
-body {
-    background-color: LightGray;
+/* body {
+  background-color: LightGray;
 }
 div {
-    border: 1px solid Chocolate;
-}
+  border: 1px solid Chocolate;
+} */
 
 /*Temporary styling to identfy sections. Will be deleted once layout is correct. */
+
+/******** Navigation Section *********/
+
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  z-index: 9999;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.top-navigation .logo {
+  /* height: 4.375rem; */
+  margin-left: 4rem;
+}
+
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.top-navigation .links li.active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+
